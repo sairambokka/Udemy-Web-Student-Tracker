@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Secure Login Page</title>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/add-student-style.css">
+</head>
+<body>
+
+
+<div id="wrapper">
+	<div id="header">
+		<h1>Foo Bar University</h1>
+	</div>
+</div>
+
+<div id="container">
+	<div id="content">
+		<h2>Login To The Database</h2>
+		
+		<form action="UserControllerServlet" method="GET">
+			
+			
+			<table>
+				<tr>
+					<td><label>User Name : </label></td>
+					<td><input type="text" name="userName" /></td>
+				</tr>
+				
+				<tr>
+					<td><label>Password : </label></td>
+					<td><input type="password" name="password" /></td>
+				</tr>
+				
+				<tr>
+					<td><label></label></td>
+					<td><input type="submit" value="LOGIN" /></td>
+				</tr>
+				
+			</table>
+		</form>
+		
+		
+		<div style="clear: both;"></div>
+		
+		
+	</div>
+</div>
+
+</body>
+</html>
